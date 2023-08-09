@@ -1,0 +1,70 @@
+<!------
+@ What are Semantic Elements?
+A semantic element clearly describes its meaning to both the browser and the developer.
+
+------Examples of non-semantic elements: <div> and <span> ----- Tells nothing about its content.
+
+------Examples of semantic elements: <form>, <table>, and <article> ---- Clearly defines its content.
+
+Semantic Elements in HTML
+Many web sites contain HTML code like: <div id="nav"> <div class="header"> <div id="footer"> to indicate navigation, header, and footer.
+
+In HTML there are some semantic elements that can be used to define different parts of a web page:  
+https://www.w3schools.com/html/img_sem_elements.gif
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+      <<<
+      <div>= vertical block (horizontal border line)
+      <span>= horizontal block inline(Vertical border line)
+      >>>
+            tr = table row;
+            th = table header.;
+            td = table data;
+            Everything between <td> and </td> are the content of the table cell.
+            Note: A table cell can contain all sorts of HTML elements: text, images, lists, links, other tables, etc.
+            colspan= combine cloums;
+            rowspan=combine rows;
+
+<table>	Defines a table
+<th>	      Defines a header cell in a table
+<tr>	      Defines a row in a table
+<td>	      Defines a cell in a table
+<caption>	Defines a table caption
+<colgroup>	Specifies a group of one or more columns in a table for formatting
+<col>	      Specifies column properties for each column within a <colgroup> element
+<thead>	Groups the header content in a table
+<tbody>	Groups the body content in a table
+<tfoot>	Groups the footer content in a table
+------->
+
+
+      <h1>HOME!</h1>
+<thread>
+      <table style="padding: 2px; border: 2px solid black;">
+      <tr><th>Counter One</th><th>Counter Two</th><th>Counter Three</th></tr>
+</thread>
+<tbody>
+      <tr><td>One</td><td>Two</td><td>TTT</td></tr>
+      <tr><td>One</td><td style="padding: 2px; border: 2px solid black;" colspan="2">Two</td></tr>
+      <tr><td>One</td><td>Two</td><td style="padding:2px; border: 2px solid black;" rowspan="2">Multipal rows</td></tr>
+      <tr><td>One</td><td>Two</td></tr>
+     
+      <tr><td><img src="data:image/jpeg;base64,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" style="width: 80px; height: 50px"></td><td>Two</td><td>JJJ</td></tr>
+</tbody>
+<tfoot>
+      <tr> <td colspan="3">Footer</td></tr>
+
+</tfoot>     
+</table>
+      
